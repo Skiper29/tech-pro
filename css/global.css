@@ -20,6 +20,9 @@
   --accent-color: var(--tertiary-color);
   --header-contacts-link-color: #e1e1e1;
   --header-link-color: #bdbdbd;
+  --primary-button-color: var(--accent-color);
+  --primary-button-text-color: var(--primary-color);
+  --primary-button-border-color: var(--accent-color);
 
   --container-padding: var(--container-padding-default);
   --container-padding-default: 15px;

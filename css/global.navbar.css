@@ -1,7 +1,14 @@
 .header__nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
-.header__logo {
+.header__nav a {
+  text-decoration: none;
 }
 
 .header__logo-image {
@@ -9,16 +16,30 @@
 }
 
 .header__menu {
-}
-
-.header__menu-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .header__menu-link {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--header-link-color);
+  transition: color 0.1s;
 }
 
-.button {
+.header__menu-link:hover {
+  color: var(--accent-color);
 }
 
-.button--primary {
+@media (min-width: 992px) {
+  .header__nav {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .header__menu {
+    flex-direction: row;
+    gap: 15px;
+  }
 }
