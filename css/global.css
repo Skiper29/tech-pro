@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  scroll-behavior: smooth;
+  font-family: "Lato", sans-serif;
+  --primary-color: #fff;
+  --secondary-color: #121212;
+  --tertiary-color: #ff6534;
+  --primary-text-color: var(--primary-color);
+  --secondary-text-color: var(--secondary-color);
+  --accent-color: var(--tertiary-color);
+  --header-contacts-link-color: #e1e1e1;
+  --header-link-color: #bdbdbd;
+
+  --container-padding: var(--container-padding-default);
+  --container-padding-default: 15px;
+  --container-padding-sm: 24px;
+  --container-padding-md: 32px;
+  --container-padding-lg: 40px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Questrial", sans-serif;
+}
+
+a {
+  color: var(--primary-text-color);
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  --container-padding: var(--container-padding-sm);
+  padding: 0px var(--container-padding);
+}
+
+@media (min-width: 768px) {
+  .container {
+    --container-padding: var(--container-padding-md);
+    padding: 0 var(--container-padding);
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    --container-padding: var(--container-padding-lg);
+    padding: 0 var(--container-padding);
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    --container-padding: var(--container-padding-default);
+    padding: 0 var(--container-padding);
+  }
+}
+
+header {
+  background-color: var(--secondary-color);
+}

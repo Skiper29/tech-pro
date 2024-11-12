@@ -1,0 +1,48 @@
+.header__contact-bar {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .header__contact-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding-top: 11px;
+    padding-bottom: 11px;
+  }
+
+  .header__contact-bar::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: var(--container-padding);
+
+    width: calc(100% - var(--container-padding) * 2);
+
+    height: 1px;
+    bottom: 1px;
+    background-color: #fff;
+    opacity: 0.2;
+  }
+
+  .header__contact-bar a {
+    color: var(--header-contacts-link-color);
+    font-size: 15px;
+  }
+
+  .header__contacts {
+    display: flex;
+    gap: 20px;
+  }
+
+  .header__social-links {
+    display: flex;
+    gap: 15px;
+  }
+
+  .header__social-icon {
+    width: 30px;
+    height: 30px;
+  }
+}
