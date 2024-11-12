@@ -1,25 +1,46 @@
+header {
+  background: url(../img/index/hero/background.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .hero {
   padding-top: 95px;
   padding-bottom: 60px;
-  text-align: center;
-}
 
-.hero__container {
+  color: var(--primary-text-color);
+
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }
 
 .hero__content {
 }
 
 .hero__subtitle {
+  font-size: 12px;
+  font-weight: 900;
+  color: var(--accent-color);
+  text-transform: uppercase;
+  letter-spacing: 2.4px;
+
+  margin-bottom: 20px;
 }
 
 .hero__title {
-}
-
-.text-accent {
+  font-size: 56px;
+  font-weight: normal;
+  line-height: 1.1;
+  margin-bottom: 35px;
 }
 
 .hero__description {
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--pale-sm-text-color);
 }
 
 .hero__text {

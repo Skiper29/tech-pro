@@ -17,9 +17,12 @@
   --tertiary-color: #ff6534;
   --primary-text-color: var(--primary-color);
   --secondary-text-color: var(--secondary-color);
+  --pale-sm-text-color: #d8d8d8;
+  --pale-md-text-color: #bdbdbd;
+
   --accent-color: var(--tertiary-color);
   --header-contacts-link-color: #e1e1e1;
-  --header-link-color: #bdbdbd;
+  --header-link-color: var(--pale-md-text-color);
   --primary-button-color: var(--accent-color);
   --primary-button-text-color: var(--primary-color);
   --primary-button-border-color: var(--accent-color);
@@ -81,6 +84,6 @@ img {
   }
 }
 
-header {
-  background-color: var(--secondary-color);
+.text-accent {
+  color: var(--accent-color);
 }
