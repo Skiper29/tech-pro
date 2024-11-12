@@ -8,8 +8,8 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
-    padding-top: 11px;
-    padding-bottom: 11px;
+    padding-top: 9px;
+    padding-bottom: 10px;
   }
 
   .header__contact-bar::after {
@@ -38,11 +38,18 @@
 
   .header__social-links {
     display: flex;
+    align-items: center;
     gap: 15px;
   }
 
   .header__social-icon {
     width: 30px;
     height: 30px;
+    fill: #fff;
+    transition: fill 0.2s;
+  }
+
+  .header__social-icon:hover {
+    fill: var(--accent-color);
   }
 }

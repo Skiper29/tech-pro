@@ -41,6 +41,10 @@ a {
   color: var(--primary-text-color);
 }
 
+ul {
+  list-style: none;
+}
+
 img {
   display: block;
   width: 100%;
@@ -67,7 +71,7 @@ img {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
   .container {
     --container-padding: var(--container-padding-default);
     padding: 0 var(--container-padding);
