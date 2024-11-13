@@ -185,6 +185,11 @@ header {
     justify-content: space-between;
     align-self: stretch;
     margin-bottom: 50px;
+    align-items: flex-start;
+  }
+
+  .hero__clients-count {
+    margin-bottom: 15px;
   }
 
   .hero__expert-photo {
