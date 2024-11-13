@@ -19,6 +19,7 @@
   --secondary-text-color: var(--secondary-color);
   --pale-sm-text-color: #d8d8d8;
   --pale-md-text-color: #bdbdbd;
+  --pale-lg-text-color: #727272;
 
   --accent-color: var(--tertiary-color);
   --header-contacts-link-color: #e1e1e1;

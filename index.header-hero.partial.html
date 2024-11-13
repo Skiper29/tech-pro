@@ -9,25 +9,23 @@
       Don't let technical troubles slow you down. At TechPro, we're here to
       breathe new life into your devices, swiftly & seamlessly.
     </p>
-    <ul class="hero__links">
-      <li class="hero__link-item">
-        <a href="#" class="hero__link">Warranty Policy</a>
-      </li>
-      <li class="hero__link-item">
-        <a href="#" class="hero__link">Service Terms</a>
-      </li>
-      <li class="hero__link-item">
-        <a href="#" class="hero__link">Support</a>
-      </li>
-    </ul>
-    <button class="hero__button">
-      <img
-        src="img/index/hero/watch-icon.svg"
-        alt="Watch Icon"
-        class="hero__watch-video-icon"
-      />
-      Watch Video
-    </button>
+    <div class="hero__links">
+      <a href="#" class="hero__link">Warranty Policy</a>
+      <a href="#" class="hero__link">Service Terms</a>
+      <a href="#" class="hero__link">Support</a>
+    </div>
+    <div class="hero__button-wrapper">
+      <a class="hero__button">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 100 100"
+          class="hero__watch-video-icon"
+        >
+          <polygon points="35.783,69 35.783,29 69,49.143 "></polygon>
+        </svg>
+      </a>
+      <p class="hero__button-text">Watch Video</p>
+    </div>
   </div>
   <div class="hero__image-container">
     <img
@@ -37,8 +35,13 @@
     />
   </div>
   <div class="hero__stats">
-    <p class="hero__clients-count">34.5k <span class="text-accent">+</span></p>
-    <p class="hero__clients-location">Clients in NY.</p>
+    <div>
+      <p class="hero__clients-count">
+        34.5k <span class="text-accent">+</span>
+      </p>
+      <p class="hero__clients-location">Clients in NY.</p>
+    </div>
+
     <div class="hero__expert">
       <img
         src="img/index/hero/expert-photo.webp"
